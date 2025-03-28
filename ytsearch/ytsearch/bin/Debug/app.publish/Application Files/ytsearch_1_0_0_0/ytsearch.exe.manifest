@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ytsearch.exe" version="1.0.0.0" publicKeyToken="35c9d466649fd10c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ytsearch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ytsearch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeSearch.dll" size="8192">
+      <assemblyIdentity name="YoutubeSearch" version="0.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xUCzggEIoWi7vD5604Qo/8YLbfnAnn1CYGHovtqCvzU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ytsearch.exe" size="12712">
+      <assemblyIdentity name="ytsearch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JM9HT02keJcIl7/c2VwZ/ozdWL29AeaPgBvLBxWlSgE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ytsearch.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=uthu-PC\uthu" issuerKeyHash="126e454853a7d3c4d73eaffa4f4b305835002b5f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a0cM33zmTT8vJMljQ2L8WdwY2PHMX/41U+xLPCnFKtQ=</DigestValue></Reference></SignedInfo><SignatureValue>QIiVdS67q/qzZaCASx0pDJ6rF7A+1pFvcf2BUMgE/UPG56pqdvbQtLraVDzMpLvn0pJ9tTA3UiDr3x9/RQxjNPFUvaQ1YDVZ4Ugjai4+Ioe8WqZ2Hm/aW8aKcA+r3v4uk5Rt4QYZ5aKfLHYOG3/ReQQUOz8wEU1i3CRbEHzWcmo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ik5Ygm57FoBRndTwHsp1C6BMz9TBmF1L5r3p0NS6/2m+puBchkSUdtyAQG7ax7DIkNR/3TTAMf5VBc/V7BVV4YVQtNfjQw+oJUsV5ktXYkvvH9ZI5L3IGc8XowEHkDhoSRjudvb6pRnzMBYxOcaZY6Um4xCAr6k2SPUYzgnfI6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d42ac5293c4bec5335fe5fccf1d818dc59fc624363c9242f3f4de67cdf0c476b" Description="" Url=""><as:assemblyIdentity name="ytsearch.exe" version="1.0.0.0" publicKeyToken="35c9d466649fd10c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=uthu-PC\uthu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1HqnLbCj63xnKhNdIBZeq4tDh7BUwyyosswQ372udKE=</DigestValue></Reference></SignedInfo><SignatureValue>SpJ6NYhg5TrD6EaVliHVWd1GMiENrdvbU5eccXtHLlBB005bG8y9dmwt9xVqLXaFEXho4bvsm490V6fD4zNUKVMjFjCmyEercW9MhKPxpxs29hO+5zW9QmRwThn1WtWOdwn/o9mwlBrR8zfe1+rEBtfF1uk0uyDoiMcVkpOgjYs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ik5Ygm57FoBRndTwHsp1C6BMz9TBmF1L5r3p0NS6/2m+puBchkSUdtyAQG7ax7DIkNR/3TTAMf5VBc/V7BVV4YVQtNfjQw+oJUsV5ktXYkvvH9ZI5L3IGc8XowEHkDhoSRjudvb6pRnzMBYxOcaZY6Um4xCAr6k2SPUYzgnfI6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQeLJ3idfA6LNBcZ4X7A1etDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAdQB0AGgAdQAtAFAAQwBcAHUAdABoAHUwHhcNMTcwMjI4MTc1MzQ2WhcNMTgwMjI4MjM1MzQ2WjAjMSEwHwYDVQQDHhgAdQB0AGgAdQAtAFAAQwBcAHUAdABoAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIpOWIJuexaAUZ3U8B7KdQugTM/UwZhdS+a96dDUuv9pvqbgXIZElHbcgEBu2sewyJDUf900wDH+VQXP1ewVVeGFULTX40MPqCVLFeZLV2JL7x/WSOS9yBnPF6MBB5A4aEkY7nb2+qUZ8zAWMTnGmWOlJuMQgK+pNkj1GM4J3yOhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAUtq7QajbK6A3f8quz+jnJ+L+qWRg9y7LE0WWsHFohQenZJhGmNZ/SAsuIp0uGrr9bojgMKFskfpUFu3URW9OLoLbGjQ5vC9tnZlPwzDVh72w9t2CDCrfe4dVC11qR/Hy4KblHjjnxUa8mJ1/6yWdh79HQhK53G6Gpjz6eoUWF4w=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

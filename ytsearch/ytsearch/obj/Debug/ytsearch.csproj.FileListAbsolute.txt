@@ -1,0 +1,14 @@
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\ytsearch.exe.config
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.Form1.resources
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.Properties.Resources.resources
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.csproj.GenerateResource.Cache
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\ytsearch.exe
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\ytsearch.pdb
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.exe
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.pdb
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\YoutubeSearch.dll
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.csprojResolveAssemblyReference.cache
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\ytsearch.exe.manifest
+D:\YouTubeSearch\ytsearch\ytsearch\bin\Debug\ytsearch.application
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.exe.manifest
+D:\YouTubeSearch\ytsearch\ytsearch\obj\Debug\ytsearch.application
